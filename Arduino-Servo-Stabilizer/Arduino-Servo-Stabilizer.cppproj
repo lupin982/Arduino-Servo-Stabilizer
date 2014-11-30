@@ -2,9 +2,9 @@
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectVersion>6.1</ProjectVersion>
+    <ProjectVersion>6.2</ProjectVersion>
     <ToolchainName>com.Atmel.AVRGCC8.CPP</ToolchainName>
-    <ProjectGuid>{07b459b4-8d76-4638-bc6d-a459ba2d616b}</ProjectGuid>
+    <ProjectGuid>{5b41725b-da1a-486a-9cd5-ab6ebbdd514c}</ProjectGuid>
     <avrdevice>atmega328p</avrdevice>
     <avrdeviceseries>none</avrdeviceseries>
     <OutputType>Executable</OutputType>
@@ -26,15 +26,16 @@
     <CacheFlash>true</CacheFlash>
     <UncachedRange />
     <BootSegment>0</BootSegment>
+    <preserveEEPROM>true</preserveEEPROM>
     <AsfFrameworkConfig>
-      <framework-data>
+      <framework-data xmlns="">
   <options />
   <configurations />
   <files />
   <documentation help="" />
   <offline-documentation help="" />
   <dependencies>
-    <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.6.0" />
+    <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.19.0" />
   </dependencies>
 </framework-data>
     </AsfFrameworkConfig>
@@ -50,23 +51,10 @@
         <avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>
         <avrgcc.compiler.symbols.DefSymbols>
           <ListValues>
-            <Value>__AVR_ATmega328p__</Value>
-            <Value>__AVR_ATmega328P__</Value>
-            <Value>ARDUINO=101</Value>
-            <Value>ARDUINO_MAIN</Value>
-            <Value>F_CPU=16000000L</Value>
-            <Value>__AVR__</Value>
-            <Value>__cplusplus</Value>
           </ListValues>
         </avrgcc.compiler.symbols.DefSymbols>
         <avrgcc.compiler.directories.IncludePaths>
           <ListValues>
-            <Value>C:\Program Files\Arduino\hardware\arduino\avr\cores\arduino</Value>
-            <Value>C:\Program Files\Arduino\hardware\arduino\avr\variants\eightanaloginputs</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\avr\include\</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\avr\include\avr\</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\avr\</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\lib\gcc\avr\4.3.2\include\</Value>
           </ListValues>
         </avrgcc.compiler.directories.IncludePaths>
         <avrgcc.compiler.optimization.level>Optimize (-O1)</avrgcc.compiler.optimization.level>
@@ -79,23 +67,10 @@
         <avrgcccpp.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcccpp.compiler.general.ChangeDefaultBitFieldUnsigned>
         <avrgcccpp.compiler.symbols.DefSymbols>
           <ListValues>
-            <Value>__AVR_ATmega328p__</Value>
-            <Value>__AVR_ATmega328P__</Value>
-            <Value>ARDUINO=101</Value>
-            <Value>ARDUINO_MAIN</Value>
-            <Value>F_CPU=16000000L</Value>
-            <Value>__AVR__</Value>
-            <Value>__cplusplus</Value>
           </ListValues>
         </avrgcccpp.compiler.symbols.DefSymbols>
         <avrgcccpp.compiler.directories.IncludePaths>
           <ListValues>
-            <Value>C:\Program Files\Arduino\hardware\arduino\avr\cores\arduino</Value>
-            <Value>C:\Program Files\Arduino\hardware\arduino\avr\variants\eightanaloginputs</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\avr\include\</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\avr\include\avr\</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\avr\</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\lib\gcc\avr\4.3.2\include\</Value>
             <Value>
             </Value>
           </ListValues>
@@ -122,23 +97,10 @@
         <avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>
         <avrgcc.compiler.symbols.DefSymbols>
           <ListValues>
-            <Value>__AVR_ATmega328p__</Value>
-            <Value>__AVR_ATmega328P__</Value>
-            <Value>ARDUINO=101</Value>
-            <Value>ARDUINO_MAIN</Value>
-            <Value>F_CPU=16000000L</Value>
-            <Value>__AVR__</Value>
-            <Value>__cplusplus</Value>
           </ListValues>
         </avrgcc.compiler.symbols.DefSymbols>
         <avrgcc.compiler.directories.IncludePaths>
           <ListValues>
-            <Value>C:\Program Files\Arduino\hardware\arduino\avr\cores\arduino</Value>
-            <Value>C:\Program Files\Arduino\hardware\arduino\avr\variants\eightanaloginputs</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\avr\include\</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\avr\include\avr\</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\avr\</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\lib\gcc\avr\4.3.2\include\</Value>
           </ListValues>
         </avrgcc.compiler.directories.IncludePaths>
         <avrgcc.compiler.optimization.level>Optimize (-O1)</avrgcc.compiler.optimization.level>
@@ -151,23 +113,10 @@
         <avrgcccpp.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcccpp.compiler.general.ChangeDefaultBitFieldUnsigned>
         <avrgcccpp.compiler.symbols.DefSymbols>
           <ListValues>
-            <Value>__AVR_ATmega328p__</Value>
-            <Value>__AVR_ATmega328P__</Value>
-            <Value>ARDUINO=101</Value>
-            <Value>ARDUINO_MAIN</Value>
-            <Value>F_CPU=16000000L</Value>
-            <Value>__AVR__</Value>
-            <Value>__cplusplus</Value>
           </ListValues>
         </avrgcccpp.compiler.symbols.DefSymbols>
         <avrgcccpp.compiler.directories.IncludePaths>
           <ListValues>
-            <Value>C:\Program Files\Arduino\hardware\arduino\avr\cores\arduino</Value>
-            <Value>C:\Program Files\Arduino\hardware\arduino\avr\variants\eightanaloginputs</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\avr\include\</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\avr\include\avr\</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\avr\</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\lib\gcc\avr\4.3.2\include\</Value>
             <Value>
             </Value>
           </ListValues>
@@ -184,15 +133,7 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="Arduino-Servo-Stabilizer.ino">
-      <SubType>compile</SubType>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Visual Micro\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Visual Micro\.Arduino-Servo-Stabilizer.vsarduino.h">
+    <Compile Include="Arduino_Servo_Stabilizer.ino">
       <SubType>compile</SubType>
     </Compile>
   </ItemGroup>
