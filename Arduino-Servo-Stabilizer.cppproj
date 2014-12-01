@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>6.2</ProjectVersion>
     <ToolchainName>com.Atmel.AVRGCC8.CPP</ToolchainName>
-    <ProjectGuid>{5b41725b-da1a-486a-9cd5-ab6ebbdd514c}</ProjectGuid>
+    <ProjectGuid>{07b459b4-8d76-4638-bc6d-a459ba2d616b}</ProjectGuid>
     <avrdevice>atmega328p</avrdevice>
     <avrdeviceseries>none</avrdeviceseries>
     <OutputType>Executable</OutputType>
@@ -26,19 +26,19 @@
     <CacheFlash>true</CacheFlash>
     <UncachedRange />
     <BootSegment>0</BootSegment>
-    <preserveEEPROM>true</preserveEEPROM>
     <AsfFrameworkConfig>
-      <framework-data xmlns="">
+      <framework-data>
   <options />
   <configurations />
   <files />
   <documentation help="" />
   <offline-documentation help="" />
   <dependencies>
-    <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.19.0" />
+    <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.6.0" />
   </dependencies>
 </framework-data>
     </AsfFrameworkConfig>
+    <preserveEEPROM>true</preserveEEPROM>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <ToolchainSettings>
@@ -55,6 +55,16 @@
         </avrgcc.compiler.symbols.DefSymbols>
         <avrgcc.compiler.directories.IncludePaths>
           <ListValues>
+            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\cores\arduino</Value>
+            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\variants\yun</Value>
+            <Value>D:\Francesco\arduino-1.5.5-r2\libraries</Value>
+            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\libraries</Value>
+            <Value>C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers</Value>
+            <Value>C:\Users\Beatella\Documents\Arduino\libraries</Value>
+            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\avr\include\</Value>
+            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\avr\include\avr\</Value>
+            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\avr\</Value>
+            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\lib\gcc\avr\4.3.2\include\</Value>
           </ListValues>
         </avrgcc.compiler.directories.IncludePaths>
         <avrgcc.compiler.optimization.level>Optimize (-O1)</avrgcc.compiler.optimization.level>
@@ -67,10 +77,24 @@
         <avrgcccpp.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcccpp.compiler.general.ChangeDefaultBitFieldUnsigned>
         <avrgcccpp.compiler.symbols.DefSymbols>
           <ListValues>
+            <Value>ARDUINO=103</Value>
+            <Value>__AVR_ATmega328P__</Value>
+            <Value>F_CPU=16000000L</Value>
+            <Value>__AVR__</Value>
           </ListValues>
         </avrgcccpp.compiler.symbols.DefSymbols>
         <avrgcccpp.compiler.directories.IncludePaths>
           <ListValues>
+            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\cores\arduino</Value>
+            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\variants\yun</Value>
+            <Value>D:\Francesco\arduino-1.5.5-r2\libraries</Value>
+            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\libraries</Value>
+            <Value>C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers</Value>
+            <Value>C:\Users\Beatella\Documents\Arduino\libraries</Value>
+            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\avr\include\</Value>
+            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\avr\include\avr\</Value>
+            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\avr\</Value>
+            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\lib\gcc\avr\4.3.2\include\</Value>
             <Value>
             </Value>
           </ListValues>
@@ -101,6 +125,16 @@
         </avrgcc.compiler.symbols.DefSymbols>
         <avrgcc.compiler.directories.IncludePaths>
           <ListValues>
+            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\cores\arduino</Value>
+            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\variants\yun</Value>
+            <Value>D:\Francesco\arduino-1.5.5-r2\libraries</Value>
+            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\libraries</Value>
+            <Value>C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers</Value>
+            <Value>C:\Users\Beatella\Documents\Arduino\libraries</Value>
+            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\avr\include\</Value>
+            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\avr\include\avr\</Value>
+            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\avr\</Value>
+            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\lib\gcc\avr\4.3.2\include\</Value>
           </ListValues>
         </avrgcc.compiler.directories.IncludePaths>
         <avrgcc.compiler.optimization.level>Optimize (-O1)</avrgcc.compiler.optimization.level>
@@ -113,10 +147,24 @@
         <avrgcccpp.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcccpp.compiler.general.ChangeDefaultBitFieldUnsigned>
         <avrgcccpp.compiler.symbols.DefSymbols>
           <ListValues>
+            <Value>ARDUINO=103</Value>
+            <Value>__AVR_ATmega328P__</Value>
+            <Value>F_CPU=16000000L</Value>
+            <Value>__AVR__</Value>
           </ListValues>
         </avrgcccpp.compiler.symbols.DefSymbols>
         <avrgcccpp.compiler.directories.IncludePaths>
           <ListValues>
+            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\cores\arduino</Value>
+            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\variants\yun</Value>
+            <Value>D:\Francesco\arduino-1.5.5-r2\libraries</Value>
+            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\libraries</Value>
+            <Value>C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers</Value>
+            <Value>C:\Users\Beatella\Documents\Arduino\libraries</Value>
+            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\avr\include\</Value>
+            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\avr\include\avr\</Value>
+            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\avr\</Value>
+            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\lib\gcc\avr\4.3.2\include\</Value>
             <Value>
             </Value>
           </ListValues>
@@ -133,9 +181,9 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Arduino_Servo_Stabilizer.ino">
+    <None Include="Arduino-Servo-Stabilizer.ino">
       <SubType>compile</SubType>
-    </Compile>
+    </None>
   </ItemGroup>
   <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />
 </Project>
