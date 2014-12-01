@@ -62,16 +62,26 @@
         </avrgcc.compiler.symbols.DefSymbols>
         <avrgcc.compiler.directories.IncludePaths>
           <ListValues>
-            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\cores\arduino</Value>
-            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\variants\eightanaloginputs</Value>
-            <Value>D:\Francesco\arduino-1.5.5-r2\libraries</Value>
-            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\libraries</Value>
+            <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\cores\arduino</Value>
+            <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\variants\eightanaloginputs</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Wire</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Wire\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\I2Cdev</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\I2Cdev\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\PID_v1</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\PID_v1\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\MPU6050</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\MPU6050\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Adafruit-GPS-Library-master</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Adafruit-GPS-Library-master\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries</Value>
+            <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\libraries</Value>
             <Value>C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers</Value>
-            <Value>C:\Users\Beatella\Documents\Arduino\libraries</Value>
-            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\avr\include\</Value>
-            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\avr\include\avr\</Value>
-            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\avr\</Value>
-            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\lib\gcc\avr\4.3.2\include\</Value>
+            <Value>D:\Francesco\Ardupilot\ardupilot-master\libraries</Value>
+            <Value>d:\francesco\arduino-1.0.6\hardware\tools\avr\avr\include\</Value>
+            <Value>d:\francesco\arduino-1.0.6\hardware\tools\avr\avr\include\avr\</Value>
+            <Value>d:\francesco\arduino-1.0.6\hardware\tools\avr\avr\</Value>
+            <Value>d:\francesco\arduino-1.0.6\hardware\tools\avr\lib\gcc\avr\4.3.2\include\</Value>
           </ListValues>
         </avrgcc.compiler.directories.IncludePaths>
         <avrgcc.compiler.optimization.level>Optimize (-O1)</avrgcc.compiler.optimization.level>
@@ -95,16 +105,26 @@
         </avrgcccpp.compiler.symbols.DefSymbols>
         <avrgcccpp.compiler.directories.IncludePaths>
           <ListValues>
-            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\cores\arduino</Value>
-            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\variants\eightanaloginputs</Value>
-            <Value>D:\Francesco\arduino-1.5.5-r2\libraries</Value>
-            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\libraries</Value>
+            <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\cores\arduino</Value>
+            <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\variants\eightanaloginputs</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Wire</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Wire\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\I2Cdev</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\I2Cdev\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\PID_v1</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\PID_v1\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\MPU6050</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\MPU6050\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Adafruit-GPS-Library-master</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Adafruit-GPS-Library-master\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries</Value>
+            <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\libraries</Value>
             <Value>C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers</Value>
-            <Value>C:\Users\Beatella\Documents\Arduino\libraries</Value>
-            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\avr\include\</Value>
-            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\avr\include\avr\</Value>
-            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\avr\</Value>
-            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\lib\gcc\avr\4.3.2\include\</Value>
+            <Value>D:\Francesco\Ardupilot\ardupilot-master\libraries</Value>
+            <Value>d:\francesco\arduino-1.0.6\hardware\tools\avr\avr\include\</Value>
+            <Value>d:\francesco\arduino-1.0.6\hardware\tools\avr\avr\include\avr\</Value>
+            <Value>d:\francesco\arduino-1.0.6\hardware\tools\avr\avr\</Value>
+            <Value>d:\francesco\arduino-1.0.6\hardware\tools\avr\lib\gcc\avr\4.3.2\include\</Value>
             <Value>
             </Value>
           </ListValues>
@@ -119,6 +139,71 @@
         <avrgcccpp.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcccpp.assembler.debugging.DebugLevel>
       </AvrGccCpp>
     </ToolchainSettings>
+    <VisualMicroSettings>
+      <VisualMicroSettings>
+        <arduino.board.name>nano328</arduino.board.name>
+        <arduino.board.desc>Arduino Nano w/ ATmega328</arduino.board.desc>
+        <arduino.board.property_bag>name=Arduino Nano w/ ATmega328
+upload.protocol=arduino
+upload.maximum_size=30720
+upload.speed=57600
+bootloader.low_fuses=0xFF
+bootloader.high_fuses=0xDA
+bootloader.extended_fuses=0x05
+bootloader.path=atmega
+bootloader.file=ATmegaBOOT_168_atmega328.hex
+bootloader.unlock_bits=0x3F
+bootloader.lock_bits=0x0F
+build.mcu=atmega328p
+build.f_cpu=16000000L
+build.core=arduino
+build.variant=eightanaloginputs
+runtime.ide.path=D:\Francesco\arduino-1.0.6
+build.system.path=D:\Francesco\arduino-1.0.6\hardware\arduino\system
+runtime.ide.version=106
+originalid=nano328
+vm.platform.root.path=C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\arduino10x
+ide.hint=Arduino 0023 and 1.0.x Ide
+ide.location.key=Arduino
+ide.location.ide.winreg=Arduino 1.0.x Application
+ide.location.sketchbook.winreg=Arduino 1.0.x Sketchbook
+ide.location.sketchbook.preferences=sketchbook.path
+ide.location.sketchbook.default=%MYDOCUMENTS%\arduino
+ide.location.preferences=%VM_APPDATA_ROAMING%\arduino\preferences.txt
+ide.default.package=arduino
+ide.default.platform=avr
+ide.multiplatform=true
+ide.includes=arduino.h
+ide.platformswithoutpackage=true
+ide.includes.fallback=wprogram.h
+ide.extension=ino
+ide.extension.fallback=pde
+ide.versionLTEQ=149
+ide.exe=arduino.exe
+ide.hosts=atmel
+ide.url=http://arduino.cc/en/Main/Software
+vm.debug=true
+software=ARDUINO
+ide.appid=arduino10x
+location.sketchbook=D:\Francesco\Ardupilot\ardupilot-master
+vm.core.include=arduino.h
+build.board=AVR_NANO328
+vm.boardsource.path=D:\Francesco\arduino-1.0.6\hardware\arduino
+runtime.platform.path=D:\Francesco\arduino-1.0.6\hardware\arduino
+vm.platformname.name=avr
+build.arch=AVR
+</arduino.board.property_bag>
+        <arduino.build.mcu>atmega328p</arduino.build.mcu>
+        <arduino.build.f_cpu>16000000L</arduino.build.f_cpu>
+        <arduino.build.core>arduino</arduino.build.core>
+        <arduino.upload.protocol>arduino</arduino.upload.protocol>
+        <arduino.upload.speed>57600</arduino.upload.speed>
+        <arduino.upload.maximum_size>30720</arduino.upload.maximum_size>
+        <visualmicro.application.name>arduino10x</visualmicro.application.name>
+        <visualmicro.package.name>arduino</visualmicro.package.name>
+        <visualmicro.platform.name>avr</visualmicro.platform.name>
+      </VisualMicroSettings>
+    </VisualMicroSettings>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <ToolchainSettings>
@@ -142,16 +227,26 @@
         </avrgcc.compiler.symbols.DefSymbols>
         <avrgcc.compiler.directories.IncludePaths>
           <ListValues>
-            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\cores\arduino</Value>
-            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\variants\eightanaloginputs</Value>
-            <Value>D:\Francesco\arduino-1.5.5-r2\libraries</Value>
-            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\libraries</Value>
+            <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\cores\arduino</Value>
+            <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\variants\eightanaloginputs</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Wire</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Wire\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\I2Cdev</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\I2Cdev\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\PID_v1</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\PID_v1\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\MPU6050</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\MPU6050\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Adafruit-GPS-Library-master</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Adafruit-GPS-Library-master\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries</Value>
+            <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\libraries</Value>
             <Value>C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers</Value>
-            <Value>C:\Users\Beatella\Documents\Arduino\libraries</Value>
-            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\avr\include\</Value>
-            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\avr\include\avr\</Value>
-            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\avr\</Value>
-            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\lib\gcc\avr\4.3.2\include\</Value>
+            <Value>D:\Francesco\Ardupilot\ardupilot-master\libraries</Value>
+            <Value>d:\francesco\arduino-1.0.6\hardware\tools\avr\avr\include\</Value>
+            <Value>d:\francesco\arduino-1.0.6\hardware\tools\avr\avr\include\avr\</Value>
+            <Value>d:\francesco\arduino-1.0.6\hardware\tools\avr\avr\</Value>
+            <Value>d:\francesco\arduino-1.0.6\hardware\tools\avr\lib\gcc\avr\4.3.2\include\</Value>
           </ListValues>
         </avrgcc.compiler.directories.IncludePaths>
         <avrgcc.compiler.optimization.level>Optimize (-O1)</avrgcc.compiler.optimization.level>
@@ -175,16 +270,26 @@
         </avrgcccpp.compiler.symbols.DefSymbols>
         <avrgcccpp.compiler.directories.IncludePaths>
           <ListValues>
-            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\cores\arduino</Value>
-            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\variants\eightanaloginputs</Value>
-            <Value>D:\Francesco\arduino-1.5.5-r2\libraries</Value>
-            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\libraries</Value>
+            <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\cores\arduino</Value>
+            <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\variants\eightanaloginputs</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Wire</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Wire\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\I2Cdev</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\I2Cdev\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\PID_v1</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\PID_v1\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\MPU6050</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\MPU6050\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Adafruit-GPS-Library-master</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Adafruit-GPS-Library-master\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries</Value>
+            <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\libraries</Value>
             <Value>C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers</Value>
-            <Value>C:\Users\Beatella\Documents\Arduino\libraries</Value>
-            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\avr\include\</Value>
-            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\avr\include\avr\</Value>
-            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\avr\</Value>
-            <Value>d:\francesco\arduino-1.5.5-r2\hardware\tools\avr\lib\gcc\avr\4.3.2\include\</Value>
+            <Value>D:\Francesco\Ardupilot\ardupilot-master\libraries</Value>
+            <Value>d:\francesco\arduino-1.0.6\hardware\tools\avr\avr\include\</Value>
+            <Value>d:\francesco\arduino-1.0.6\hardware\tools\avr\avr\include\avr\</Value>
+            <Value>d:\francesco\arduino-1.0.6\hardware\tools\avr\avr\</Value>
+            <Value>d:\francesco\arduino-1.0.6\hardware\tools\avr\lib\gcc\avr\4.3.2\include\</Value>
             <Value>
             </Value>
           </ListValues>
@@ -199,9 +304,77 @@
         <avrgcccpp.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcccpp.assembler.debugging.DebugLevel>
       </AvrGccCpp>
     </ToolchainSettings>
+    <VisualMicroSettings>
+      <VisualMicroSettings>
+        <arduino.board.name>nano328</arduino.board.name>
+        <arduino.board.desc>Arduino Nano w/ ATmega328</arduino.board.desc>
+        <arduino.board.property_bag>name=Arduino Nano w/ ATmega328
+upload.protocol=arduino
+upload.maximum_size=30720
+upload.speed=57600
+bootloader.low_fuses=0xFF
+bootloader.high_fuses=0xDA
+bootloader.extended_fuses=0x05
+bootloader.path=atmega
+bootloader.file=ATmegaBOOT_168_atmega328.hex
+bootloader.unlock_bits=0x3F
+bootloader.lock_bits=0x0F
+build.mcu=atmega328p
+build.f_cpu=16000000L
+build.core=arduino
+build.variant=eightanaloginputs
+runtime.ide.path=D:\Francesco\arduino-1.0.6
+build.system.path=D:\Francesco\arduino-1.0.6\hardware\arduino\system
+runtime.ide.version=106
+originalid=nano328
+vm.platform.root.path=C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\arduino10x
+ide.hint=Arduino 0023 and 1.0.x Ide
+ide.location.key=Arduino
+ide.location.ide.winreg=Arduino 1.0.x Application
+ide.location.sketchbook.winreg=Arduino 1.0.x Sketchbook
+ide.location.sketchbook.preferences=sketchbook.path
+ide.location.sketchbook.default=%MYDOCUMENTS%\arduino
+ide.location.preferences=%VM_APPDATA_ROAMING%\arduino\preferences.txt
+ide.default.package=arduino
+ide.default.platform=avr
+ide.multiplatform=true
+ide.includes=arduino.h
+ide.platformswithoutpackage=true
+ide.includes.fallback=wprogram.h
+ide.extension=ino
+ide.extension.fallback=pde
+ide.versionLTEQ=149
+ide.exe=arduino.exe
+ide.hosts=atmel
+ide.url=http://arduino.cc/en/Main/Software
+vm.debug=true
+software=ARDUINO
+ide.appid=arduino10x
+location.sketchbook=D:\Francesco\Ardupilot\ardupilot-master
+vm.core.include=arduino.h
+build.board=AVR_NANO328
+vm.boardsource.path=D:\Francesco\arduino-1.0.6\hardware\arduino
+runtime.platform.path=D:\Francesco\arduino-1.0.6\hardware\arduino
+vm.platformname.name=avr
+build.arch=AVR
+</arduino.board.property_bag>
+        <arduino.build.mcu>atmega328p</arduino.build.mcu>
+        <arduino.build.f_cpu>16000000L</arduino.build.f_cpu>
+        <arduino.build.core>arduino</arduino.build.core>
+        <arduino.upload.protocol>arduino</arduino.upload.protocol>
+        <arduino.upload.speed>57600</arduino.upload.speed>
+        <arduino.upload.maximum_size>30720</arduino.upload.maximum_size>
+        <visualmicro.application.name>arduino10x</visualmicro.application.name>
+        <visualmicro.package.name>arduino</visualmicro.package.name>
+        <visualmicro.platform.name>avr</visualmicro.platform.name>
+      </VisualMicroSettings>
+    </VisualMicroSettings>
   </PropertyGroup>
   <ItemGroup>
     <None Include="Arduino_Servo.ino">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="GetAngles.ino">
       <SubType>compile</SubType>
     </None>
   </ItemGroup>
