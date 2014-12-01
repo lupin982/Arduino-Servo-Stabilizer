@@ -12,9 +12,9 @@
     <OutputFileName>$(MSBuildProjectName)</OutputFileName>
     <OutputFileExtension>.elf</OutputFileExtension>
     <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
-    <AssemblyName>Arduino-Servo-Stabilizer</AssemblyName>
-    <Name>Arduino-Servo-Stabilizer</Name>
-    <RootNamespace>Arduino-Servo-Stabilizer</RootNamespace>
+    <AssemblyName>Arduino_Servo</AssemblyName>
+    <Name>Arduino_Servo</Name>
+    <RootNamespace>Arduino_Servo</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
     <KeepTimersRunning>true</KeepTimersRunning>
     <OverrideVtor>false</OverrideVtor>
@@ -56,7 +56,7 @@
         <avrgcc.compiler.directories.IncludePaths>
           <ListValues>
             <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\cores\arduino</Value>
-            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\variants\yun</Value>
+            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\variants\eightanaloginputs</Value>
             <Value>D:\Francesco\arduino-1.5.5-r2\libraries</Value>
             <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\libraries</Value>
             <Value>C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers</Value>
@@ -86,7 +86,7 @@
         <avrgcccpp.compiler.directories.IncludePaths>
           <ListValues>
             <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\cores\arduino</Value>
-            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\variants\yun</Value>
+            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\variants\eightanaloginputs</Value>
             <Value>D:\Francesco\arduino-1.5.5-r2\libraries</Value>
             <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\libraries</Value>
             <Value>C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers</Value>
@@ -126,7 +126,7 @@
         <avrgcc.compiler.directories.IncludePaths>
           <ListValues>
             <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\cores\arduino</Value>
-            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\variants\yun</Value>
+            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\variants\eightanaloginputs</Value>
             <Value>D:\Francesco\arduino-1.5.5-r2\libraries</Value>
             <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\libraries</Value>
             <Value>C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers</Value>
@@ -156,7 +156,7 @@
         <avrgcccpp.compiler.directories.IncludePaths>
           <ListValues>
             <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\cores\arduino</Value>
-            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\variants\yun</Value>
+            <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\variants\eightanaloginputs</Value>
             <Value>D:\Francesco\arduino-1.5.5-r2\libraries</Value>
             <Value>D:\Francesco\arduino-1.5.5-r2\hardware\arduino\avr\libraries</Value>
             <Value>C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers</Value>
@@ -181,7 +181,7 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="Arduino-Servo-Stabilizer.ino">
+    <None Include="Arduino_Servo.ino">
       <SubType>compile</SubType>
     </None>
   </ItemGroup>
