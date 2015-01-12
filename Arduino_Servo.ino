@@ -1,4 +1,3 @@
-#include <Wire.h>
 
 #include "I2Cdev.h"
 #include "MPU6050_9Axis_MotionApps41.h"
@@ -60,5 +59,6 @@ void setup()
 void loop()
 {
 	getAngles();
+	
 }
 
