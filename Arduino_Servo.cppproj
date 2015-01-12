@@ -64,22 +64,28 @@
           <ListValues>
             <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\cores\arduino</Value>
             <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\variants\eightanaloginputs</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Servo</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Servo\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Wire</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Wire\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\EEPROM</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\EEPROM\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\SoftwareSerial</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\SoftwareSerial\utility</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\I2Cdev</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\I2Cdev\utility</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\PID_v1</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\PID_v1\utility</Value>
-            <Value>D:\Francesco\arduino-1.0.6\libraries\Wire</Value>
-            <Value>D:\Francesco\arduino-1.0.6\libraries\Wire\utility</Value>
+            <Value>D:\Francesco\Arduino-Servo\Arduino_Servo_Stabilizer\libraries\SerialCommand_master</Value>
+            <Value>D:\Francesco\Arduino-Servo\Arduino_Servo_Stabilizer\libraries\SerialCommand_master\utility</Value>
+            <Value>D:\Francesco\Arduino-Servo\Arduino_Servo_Stabilizer\libraries\TinyGPSPlus_0_94b</Value>
+            <Value>D:\Francesco\Arduino-Servo\Arduino_Servo_Stabilizer\libraries\TinyGPSPlus_0_94b\utility</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\MPU6050</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\MPU6050\utility</Value>
-            <Value>D:\Francesco\arduino-1.0.6\libraries\Adafruit_GPS_Library_master</Value>
-            <Value>D:\Francesco\arduino-1.0.6\libraries\Adafruit_GPS_Library_master\utility</Value>
-            <Value>D:\Francesco\Arduino-Servo\Arduino-Servo-Stabilizer\libraries\SerialCommand_master</Value>
-            <Value>D:\Francesco\Arduino-Servo\Arduino-Servo-Stabilizer\libraries\SerialCommand_master\utility</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries</Value>
             <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\libraries</Value>
             <Value>C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers</Value>
-            <Value>D:\Francesco\Arduino-Servo\Arduino-Servo-Stabilizer\libraries</Value>
+            <Value>D:\Francesco\Arduino-Servo\Arduino_Servo_Stabilizer\libraries</Value>
             <Value>d:\francesco\arduino-1.0.6\hardware\tools\avr\avr\include\</Value>
             <Value>d:\francesco\arduino-1.0.6\hardware\tools\avr\avr\include\avr\</Value>
             <Value>d:\francesco\arduino-1.0.6\hardware\tools\avr\avr\</Value>
@@ -109,22 +115,28 @@
           <ListValues>
             <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\cores\arduino</Value>
             <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\variants\eightanaloginputs</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Servo</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Servo\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Wire</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Wire\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\EEPROM</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\EEPROM\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\SoftwareSerial</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\SoftwareSerial\utility</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\I2Cdev</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\I2Cdev\utility</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\PID_v1</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\PID_v1\utility</Value>
-            <Value>D:\Francesco\arduino-1.0.6\libraries\Wire</Value>
-            <Value>D:\Francesco\arduino-1.0.6\libraries\Wire\utility</Value>
+            <Value>D:\Francesco\Arduino-Servo\Arduino_Servo_Stabilizer\libraries\SerialCommand_master</Value>
+            <Value>D:\Francesco\Arduino-Servo\Arduino_Servo_Stabilizer\libraries\SerialCommand_master\utility</Value>
+            <Value>D:\Francesco\Arduino-Servo\Arduino_Servo_Stabilizer\libraries\TinyGPSPlus_0_94b</Value>
+            <Value>D:\Francesco\Arduino-Servo\Arduino_Servo_Stabilizer\libraries\TinyGPSPlus_0_94b\utility</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\MPU6050</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\MPU6050\utility</Value>
-            <Value>D:\Francesco\arduino-1.0.6\libraries\Adafruit_GPS_Library_master</Value>
-            <Value>D:\Francesco\arduino-1.0.6\libraries\Adafruit_GPS_Library_master\utility</Value>
-            <Value>D:\Francesco\Arduino-Servo\Arduino-Servo-Stabilizer\libraries\SerialCommand_master</Value>
-            <Value>D:\Francesco\Arduino-Servo\Arduino-Servo-Stabilizer\libraries\SerialCommand_master\utility</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries</Value>
             <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\libraries</Value>
             <Value>C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers</Value>
-            <Value>D:\Francesco\Arduino-Servo\Arduino-Servo-Stabilizer\libraries</Value>
+            <Value>D:\Francesco\Arduino-Servo\Arduino_Servo_Stabilizer\libraries</Value>
             <Value>d:\francesco\arduino-1.0.6\hardware\tools\avr\avr\include\</Value>
             <Value>d:\francesco\arduino-1.0.6\hardware\tools\avr\avr\include\avr\</Value>
             <Value>d:\francesco\arduino-1.0.6\hardware\tools\avr\avr\</Value>
@@ -233,22 +245,28 @@ build.arch=AVR
           <ListValues>
             <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\cores\arduino</Value>
             <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\variants\eightanaloginputs</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Servo</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Servo\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Wire</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Wire\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\EEPROM</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\EEPROM\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\SoftwareSerial</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\SoftwareSerial\utility</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\I2Cdev</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\I2Cdev\utility</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\PID_v1</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\PID_v1\utility</Value>
-            <Value>D:\Francesco\arduino-1.0.6\libraries\Wire</Value>
-            <Value>D:\Francesco\arduino-1.0.6\libraries\Wire\utility</Value>
+            <Value>D:\Francesco\Arduino-Servo\Arduino_Servo_Stabilizer\libraries\SerialCommand_master</Value>
+            <Value>D:\Francesco\Arduino-Servo\Arduino_Servo_Stabilizer\libraries\SerialCommand_master\utility</Value>
+            <Value>D:\Francesco\Arduino-Servo\Arduino_Servo_Stabilizer\libraries\TinyGPSPlus_0_94b</Value>
+            <Value>D:\Francesco\Arduino-Servo\Arduino_Servo_Stabilizer\libraries\TinyGPSPlus_0_94b\utility</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\MPU6050</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\MPU6050\utility</Value>
-            <Value>D:\Francesco\arduino-1.0.6\libraries\Adafruit_GPS_Library_master</Value>
-            <Value>D:\Francesco\arduino-1.0.6\libraries\Adafruit_GPS_Library_master\utility</Value>
-            <Value>D:\Francesco\Arduino-Servo\Arduino-Servo-Stabilizer\libraries\SerialCommand_master</Value>
-            <Value>D:\Francesco\Arduino-Servo\Arduino-Servo-Stabilizer\libraries\SerialCommand_master\utility</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries</Value>
             <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\libraries</Value>
             <Value>C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers</Value>
-            <Value>D:\Francesco\Arduino-Servo\Arduino-Servo-Stabilizer\libraries</Value>
+            <Value>D:\Francesco\Arduino-Servo\Arduino_Servo_Stabilizer\libraries</Value>
             <Value>d:\francesco\arduino-1.0.6\hardware\tools\avr\avr\include\</Value>
             <Value>d:\francesco\arduino-1.0.6\hardware\tools\avr\avr\include\avr\</Value>
             <Value>d:\francesco\arduino-1.0.6\hardware\tools\avr\avr\</Value>
@@ -278,22 +296,28 @@ build.arch=AVR
           <ListValues>
             <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\cores\arduino</Value>
             <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\variants\eightanaloginputs</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Servo</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Servo\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Wire</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Wire\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\EEPROM</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\EEPROM\utility</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\SoftwareSerial</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\SoftwareSerial\utility</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\I2Cdev</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\I2Cdev\utility</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\PID_v1</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\PID_v1\utility</Value>
-            <Value>D:\Francesco\arduino-1.0.6\libraries\Wire</Value>
-            <Value>D:\Francesco\arduino-1.0.6\libraries\Wire\utility</Value>
+            <Value>D:\Francesco\Arduino-Servo\Arduino_Servo_Stabilizer\libraries\SerialCommand_master</Value>
+            <Value>D:\Francesco\Arduino-Servo\Arduino_Servo_Stabilizer\libraries\SerialCommand_master\utility</Value>
+            <Value>D:\Francesco\Arduino-Servo\Arduino_Servo_Stabilizer\libraries\TinyGPSPlus_0_94b</Value>
+            <Value>D:\Francesco\Arduino-Servo\Arduino_Servo_Stabilizer\libraries\TinyGPSPlus_0_94b\utility</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\MPU6050</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\MPU6050\utility</Value>
-            <Value>D:\Francesco\arduino-1.0.6\libraries\Adafruit_GPS_Library_master</Value>
-            <Value>D:\Francesco\arduino-1.0.6\libraries\Adafruit_GPS_Library_master\utility</Value>
-            <Value>D:\Francesco\Arduino-Servo\Arduino-Servo-Stabilizer\libraries\SerialCommand_master</Value>
-            <Value>D:\Francesco\Arduino-Servo\Arduino-Servo-Stabilizer\libraries\SerialCommand_master\utility</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries</Value>
             <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\libraries</Value>
             <Value>C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers</Value>
-            <Value>D:\Francesco\Arduino-Servo\Arduino-Servo-Stabilizer\libraries</Value>
+            <Value>D:\Francesco\Arduino-Servo\Arduino_Servo_Stabilizer\libraries</Value>
             <Value>d:\francesco\arduino-1.0.6\hardware\tools\avr\avr\include\</Value>
             <Value>d:\francesco\arduino-1.0.6\hardware\tools\avr\avr\include\avr\</Value>
             <Value>d:\francesco\arduino-1.0.6\hardware\tools\avr\avr\</Value>
@@ -385,18 +409,30 @@ build.arch=AVR
     <None Include="GetAngles.ino">
       <SubType>compile</SubType>
     </None>
-    <None Include="SerialCommands.ino">
-      <SubType>compile</SubType>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Visual Micro\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EPROMAnything.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="generalFunctions.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="SerialCom.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="variables.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="Visual Micro\.Arduino-Servo-Stabilizer.vsarduino.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="Visual Micro\.Arduino-Servo.vsarduino.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Visual Micro\.Arduino_Servo_Stabilizer.vsarduino.h">
       <SubType>compile</SubType>
     </Compile>
   </ItemGroup>
