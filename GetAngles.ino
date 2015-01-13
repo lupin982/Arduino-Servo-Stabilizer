@@ -1,47 +1,47 @@
 void setupMPU()
 {
-	    // initialize MPU6050 device
-    Serial.println(F("Initializing I2C devices..."));
-    mpu.initialize();
+	// initialize MPU6050 device
+	Serial.println(F("Initializing I2C devices..."));
+	mpu.initialize();
 
-    // verify connection
-    Serial.println(F("Testing device connections..."));
-    Serial.println(mpu.testConnection() ? F("MPU9150 connection successful") : F("MPU9150 connection failed"));
+	// verify connection
+	Serial.println(F("Testing device connections..."));
+	Serial.println(mpu.testConnection() ? F("MPU9150 connection successful") : F("MPU9150 connection failed"));
 
-// Set up the accelerometer, gyro, and magnetometer for data output
+	// Set up the accelerometer, gyro, and magnetometer for data output
 
-   mpu.setRate(7); // set gyro rate to 8 kHz/(1 * rate) shows 1 kHz, accelerometer ODR is fixed at 1 KHz
+	mpu.setRate(7); // set gyro rate to 8 kHz/(1 * rate) shows 1 kHz, accelerometer ODR is fixed at 1 KHz
 
-   MagRate = 10; // set magnetometer read rate in Hz; 10 to 100 (max) Hz are reasonable values
+	MagRate = 10; // set magnetometer read rate in Hz; 10 to 100 (max) Hz are reasonable values
 
-// Digital low pass filter configuration. 
-// It also determines the internal sampling rate used by the device as shown in the table below.
-// The accelerometer output rate is fixed at 1kHz. This means that for a Sample
-// Rate greater than 1kHz, the same accelerometer sample may be output to the
-// FIFO, DMP, and sensor registers more than once.
-/*
- *          |   ACCELEROMETER    |           GYROSCOPE
- * DLPF_CFG | Bandwidth | Delay  | Bandwidth | Delay  | Sample Rate
- * ---------+-----------+--------+-----------+--------+-------------
- * 0        | 260Hz     | 0ms    | 256Hz     | 0.98ms | 8kHz
- * 1        | 184Hz     | 2.0ms  | 188Hz     | 1.9ms  | 1kHz
- * 2        | 94Hz      | 3.0ms  | 98Hz      | 2.8ms  | 1kHz
- * 3        | 44Hz      | 4.9ms  | 42Hz      | 4.8ms  | 1kHz
- * 4        | 21Hz      | 8.5ms  | 20Hz      | 8.3ms  | 1kHz
- * 5        | 10Hz      | 13.8ms | 10Hz      | 13.4ms | 1kHz
- * 6        | 5Hz       | 19.0ms | 5Hz       | 18.6ms | 1kHz
- */
-  mpu.setDLPFMode(4); // set bandwidth of both gyro and accelerometer to ~20 Hz
+	// Digital low pass filter configuration.
+	// It also determines the internal sampling rate used by the device as shown in the table below.
+	// The accelerometer output rate is fixed at 1kHz. This means that for a Sample
+	// Rate greater than 1kHz, the same accelerometer sample may be output to the
+	// FIFO, DMP, and sensor registers more than once.
+	/*
+	*          |   ACCELEROMETER    |           GYROSCOPE
+	* DLPF_CFG | Bandwidth | Delay  | Bandwidth | Delay  | Sample Rate
+	* ---------+-----------+--------+-----------+--------+-------------
+	* 0        | 260Hz     | 0ms    | 256Hz     | 0.98ms | 8kHz
+	* 1        | 184Hz     | 2.0ms  | 188Hz     | 1.9ms  | 1kHz
+	* 2        | 94Hz      | 3.0ms  | 98Hz      | 2.8ms  | 1kHz
+	* 3        | 44Hz      | 4.9ms  | 42Hz      | 4.8ms  | 1kHz
+	* 4        | 21Hz      | 8.5ms  | 20Hz      | 8.3ms  | 1kHz
+	* 5        | 10Hz      | 13.8ms | 10Hz      | 13.4ms | 1kHz
+	* 6        | 5Hz       | 19.0ms | 5Hz       | 18.6ms | 1kHz
+	*/
+	mpu.setDLPFMode(4); // set bandwidth of both gyro and accelerometer to ~20 Hz
 
-// Full-scale range of the gyro sensors:
-// 0 = +/- 250 degrees/sec, 1 = +/- 500 degrees/sec, 2 = +/- 1000 degrees/sec, 3 = +/- 2000 degrees/sec
-  mpu.setFullScaleGyroRange(0); // set gyro range to 250 degrees/sec
+	// Full-scale range of the gyro sensors:
+	// 0 = +/- 250 degrees/sec, 1 = +/- 500 degrees/sec, 2 = +/- 1000 degrees/sec, 3 = +/- 2000 degrees/sec
+	mpu.setFullScaleGyroRange(0); // set gyro range to 250 degrees/sec
 
-// Full-scale accelerometer range.
-// The full-scale range of the accelerometer: 0 = +/- 2g, 1 = +/- 4g, 2 = +/- 8g, 3 = +/- 16g
-  mpu.setFullScaleAccelRange(0); // set accelerometer to 2 g range
+	// Full-scale accelerometer range.
+	// The full-scale range of the accelerometer: 0 = +/- 2g, 1 = +/- 4g, 2 = +/- 8g, 3 = +/- 16g
+	mpu.setFullScaleAccelRange(0); // set accelerometer to 2 g range
 
-  mpu.setIntDataReadyEnabled(true); // enable data ready interrupt
+	mpu.setIntDataReadyEnabled(true); // enable data ready interrupt
 
 }
 

@@ -1,9 +1,9 @@
 /*
- * variables.h
- *
- * Created: 12/01/2015 22:22:59
- *  Author: Beatella
- */ 
+* variables.h
+*
+* Created: 12/01/2015 22:22:59
+*  Author: 
+*/
 
 
 #ifndef VARIABLES_H_

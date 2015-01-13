@@ -64,9 +64,9 @@ float q[4] = {1.0f, 0.0f, 0.0f, 0.0f};    // vector to hold quaternion
 float eInt[3] = {0.0f, 0.0f, 0.0f};       // vector to hold integral error for Mahony method
 
 /*
-   This sample sketch demonstrates the normal use of a TinyGPS++ (TinyGPSPlus) object.
-   It requires the use of SoftwareSerial, and assumes that you have a
-   4800-baud serial GPS device hooked up on pins 4(rx) and 3(tx).
+This sample sketch demonstrates the normal use of a TinyGPS++ (TinyGPSPlus) object.
+It requires the use of SoftwareSerial, and assumes that you have a
+4800-baud serial GPS device hooked up on pins 4(rx) and 3(tx).
 */
 static const int RXPin = 4, TXPin = 3;
 static const uint32_t GPSBaud = 4800;
@@ -95,7 +95,14 @@ PID yawPID(&yawInput, &yawOutput, &yawSetpoint, config.YawKp, config.YawKi, conf
 Servo pitchServo;
 Servo yawServo;
 
+// stepper
+int number_of_steps = 4096;
+Stepper stepper(number_of_steps, 6, 7, 8, 9);
+
 unsigned long start_time_ms;
+
+bool start_flag = false;
+unsigned long step_counter;
 
 void setup()
 {
@@ -115,7 +122,7 @@ void setup()
 	pitchServo.attach(9);
 	yawServo.attach(10);
 	
-	step_time_ms = (unsigned long)(24.0 * 60.0 * 60.0 * 1000.0 * config.AngleStep / 360.0);	
+	step_time_ms = (unsigned long)(24.0 * 60.0 * 60.0 * 1000.0 * config.AngleStep / 360.0);
 }
 
 void loop()
@@ -133,7 +140,6 @@ void loop()
 		updateYawPIDParams = false;
 		yawPID.SetTunings(config.YawKp, config.YawKi, config.YawKd);
 	}
-
 
 	// get gps position
 	while (ss.available() > 0)
@@ -157,10 +163,11 @@ void loop()
 	}
 	// get angles
 	getAngles();
-	
+
+	// set PIDs variables
 	pitchSetpoint = latitude;
 	pitchInput = pitch;
-		
+	
 	yawSetpoint = 0.0;
 	yawInput = yaw;
 	
@@ -168,7 +175,6 @@ void loop()
 	{
 		pitchPID.Compute();
 	}
-	
 	yawPID.Compute();
 
 	pitchOutput = mapDouble(pitchOutput, -90, 90, 1000, 2000);
@@ -176,6 +182,15 @@ void loop()
 	
 	pitchServo.writeMicroseconds(pitchOutput);
 	yawServo.writeMicroseconds(yawOutput);
+	
+	// move stepper motor
+	unsigned long elapsed;
+	elapsed = millis() - start_time_ms;
+	if(elapsed > (step_time_ms * step_counter))
+	{
+		step_counter++;
+		stepper.step(1);
+	}
 }
 
 double mapDouble(double input, double in_min, double in_max, long out_min, long out_max)
@@ -186,13 +201,20 @@ double mapDouble(double input, double in_min, double in_max, long out_min, long 
 
 	delta_in = fabs(in_max - in_min);
 	delta_out = fabs(out_max - out_min);
-			
+	
 	output = (long)( ((input - in_min) * delta_out) / (double)delta_in );
 	
 	return (out_min + output);
 }
 
-void start()
+void start_function()
 {
 	start_time_ms = millis();
+	start_flag = true;
+	step_counter = 1;
+}
+
+void stop_function()
+{
+	start_flag = false;
 }
