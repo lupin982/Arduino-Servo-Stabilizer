@@ -22,7 +22,7 @@ struct config_t
 	float YawKp;
 	float YawKi;
 	float YawKd;
-	
+	float AngleStep;
 	uint8_t crc8;
 }config;
 
@@ -36,6 +36,7 @@ void setDefaultParameters()
 	config.YawKp = 2.0;
 	config.YawKi = 5.0;
 	config.YawKd = 1.0;
+	config.AngleStep = 5.625 / 64.0;
 	
 	config.crc8 = 0;
 }
@@ -44,5 +45,6 @@ void setDefaultParameters()
 #define POLYNOMIAL 0xD8  /* 11011 followed by 0's */
 typedef uint8_t crc;
 
+unsigned long step_time_ms;
 
 #endif /* VARIABLES_H_ */

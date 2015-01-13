@@ -1,3 +1,4 @@
+#include <Stepper.h>
 #include <Servo.h>
 
 #include <Wire.h>
@@ -10,8 +11,8 @@
 
 #include "I2Cdev.h"
 #include "MPU6050_9Axis_MotionApps41.h"
-#include <Adafruit_GFX.h>
-#include <Adafruit_PCD8544.h>
+//#include <Adafruit_GFX.h>
+//#include <Adafruit_PCD8544.h>
 
 #include <PID_v1.h>
 
@@ -31,7 +32,6 @@
 //The LSM9DS0 has a maximum voltage of 3.5V. Make sure you power it
 //off the 3.3V rail! And either use level shifters between SCL
 //and SDA or just use a 3.3V Arduino Pro.
-
 
 // Declare device MPU6050 class
 MPU6050 mpu;
@@ -95,18 +95,27 @@ PID yawPID(&yawInput, &yawOutput, &yawSetpoint, config.YawKp, config.YawKi, conf
 Servo pitchServo;
 Servo yawServo;
 
+unsigned long start_time_ms;
+
 void setup()
 {
+	setDefaultParameters();
+	
 	ss.begin(GPSBaud);
 	setupMPU();
 	
 	//turn the PID on
 	pitchPID.SetMode(AUTOMATIC);
 	yawPID.SetMode(AUTOMATIC);
+
+	pitchPID.SetOutputLimits(-90, 90);
+	yawPID.SetOutputLimits(-90, 90);
 	
 	// servo init
 	pitchServo.attach(9);
 	yawServo.attach(10);
+	
+	step_time_ms = (unsigned long)(24.0 * 60.0 * 60.0 * 1000.0 * config.AngleStep / 360.0);	
 }
 
 void loop()
@@ -155,7 +164,11 @@ void loop()
 	yawSetpoint = 0.0;
 	yawInput = yaw;
 	
-	pitchPID.Compute();
+	if(validLatitude)
+	{
+		pitchPID.Compute();
+	}
+	
 	yawPID.Compute();
 
 	pitchOutput = mapDouble(pitchOutput, -90, 90, 1000, 2000);
@@ -177,4 +190,9 @@ double mapDouble(double input, double in_min, double in_max, long out_min, long 
 	output = (long)( ((input - in_min) * delta_out) / (double)delta_in );
 	
 	return (out_min + output);
+}
+
+void start()
+{
+	start_time_ms = millis();
 }

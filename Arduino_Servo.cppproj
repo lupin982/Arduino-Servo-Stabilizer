@@ -64,6 +64,8 @@
           <ListValues>
             <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\cores\arduino</Value>
             <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\variants\eightanaloginputs</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Stepper</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Stepper\utility</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\Servo</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\Servo\utility</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\Wire</Value>
@@ -115,6 +117,8 @@
           <ListValues>
             <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\cores\arduino</Value>
             <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\variants\eightanaloginputs</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Stepper</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Stepper\utility</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\Servo</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\Servo\utility</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\Wire</Value>
@@ -245,6 +249,8 @@ build.arch=AVR
           <ListValues>
             <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\cores\arduino</Value>
             <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\variants\eightanaloginputs</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Stepper</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Stepper\utility</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\Servo</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\Servo\utility</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\Wire</Value>
@@ -296,6 +302,8 @@ build.arch=AVR
           <ListValues>
             <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\cores\arduino</Value>
             <Value>D:\Francesco\arduino-1.0.6\hardware\arduino\variants\eightanaloginputs</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Stepper</Value>
+            <Value>D:\Francesco\arduino-1.0.6\libraries\Stepper\utility</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\Servo</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\Servo\utility</Value>
             <Value>D:\Francesco\arduino-1.0.6\libraries\Wire</Value>

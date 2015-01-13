@@ -62,6 +62,7 @@ void readEEPROM();
 void writeEEPROM();
 void initPitchPIDs();
 void initYawPIDs();
+void updateStepTime(void);
 //******************************************************************************
 //
 // list of all config parameters
@@ -81,29 +82,35 @@ t_configDef PROGMEM configListPGM[] =
   {"YawKp",		FLOAT, &config.YawKp,		&initYawPIDs},
   {"YawKi",		FLOAT, &config.YawKi,		&initYawPIDs},
   {"YawKd",		FLOAT, &config.YawKd,		&initYawPIDs},
+  {"AngleStep", FLOAT, &config.AngleStep,	&updateStepTime},
   {"", BOOL, NULL, NULL} // terminating NULL required !!
 };
 
 
 // read bytes from program memory
-void getPGMstring (PGM_P s, char * d, int numBytes) {
+void getPGMstring (PGM_P s, char * d, int numBytes) 
+{
   char c;
-  for (int i=0; i<numBytes; i++) {
+  for (int i=0; i<numBytes; i++) 
+  {
     *d++ = pgm_read_byte(s++);
   }
 }
 
 // find Config Definition for named parameter
-t_configDef * getConfigDef(char * name) {
+t_configDef * getConfigDef(char * name)
+ {
 
   void * addr = NULL;
   bool found = false;  
   t_configDef * p = (t_configDef *)configListPGM;
 
-  while (true) {
+  while (true) 
+  {
     getPGMstring ((PGM_P)p, configUnion.bytes, sizeof(configDef)); // read structure from program memory
     if (configUnion.c.address == NULL) break;
-    if (strncmp(configUnion.c.name, name, CONFIGNAME_MAX_LEN) == 0) {
+    if (strncmp(configUnion.c.name, name, CONFIGNAME_MAX_LEN) == 0) 
+	{
       addr = configUnion.c.address;
       found = true;
       break;
@@ -133,7 +140,7 @@ void printConfig(t_configDef * def)
       case INT8   : Serial.print(*(int8_t *)(def->address)); break;
       case INT16  : Serial.print(*(int16_t *)(def->address)); break;
       case INT32  : Serial.print(*(int32_t *)(def->address)); break;
-	  case FLOAT : Serial.print(*(float *)(def->address)); break;
+	  case FLOAT  : Serial.print(*(float *)(def->address)); break;
 	  case DOUBLE : Serial.print(*(double *)(def->address)); break;
     }
     Serial.println("");
@@ -353,6 +360,11 @@ void initPitchPIDs(void)
 void initYawPIDs(void)
 {
 	updateYawPIDParams = true;
+}
+
+void updateStepTime(void)
+{
+	step_time_ms = (unsigned long)(24.0 * 60.0 * 60.0 * 1000.0 * config.AngleStep / 360.0);
 }
 
 

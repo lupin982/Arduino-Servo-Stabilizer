@@ -16,8 +16,6 @@
 crc crcSlow(uint8_t const message[], int nBytes)
 {
     crc  remainder = 0;	
-
-
     /*
      * Perform modulo-2 division, a byte at a time.
      */
